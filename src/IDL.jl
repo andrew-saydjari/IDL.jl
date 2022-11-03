@@ -10,7 +10,7 @@ if Sys.isunix()
     else
         idl_dir = dirname(idl_exec)
     end
-    idl_lib_dir = joinpath(idl_dir,"bin.darwin.x86_64")
+    idl_lib_dir = joinpath(idl_dir,"bin.linux.x86_64")
     const libidl_rpc = joinpath(idl_lib_dir,"libidl_rpc.dylib")
     const idlrpc = joinpath(idl_dir,"idlrpc")
     const idlcall = joinpath(idl_lib_dir,"libidl.dylib")
